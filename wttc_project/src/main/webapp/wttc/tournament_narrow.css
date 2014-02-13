@@ -1,0 +1,104 @@
+.redborder {
+    border: 1px #ff3842 solid;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 520px;
+}
+
+.tournament_title {
+    border-top: 1px #418367 solid;
+    border-bottom: 1px #418367 solid;
+    padding-top: 5px;
+    font-size: 140%;
+    color: #418367;
+}
+.eventstable {
+    width: 100%;
+    font: 14px 'Arial Narrow';
+    border-collapse:collapse;
+}
+.eventstable tr {
+    height: 12px;
+}
+.eventstable tr td {
+    border-bottom: 1px #418367 solid;
+}
+.eventstable tr:nth-child(even) {background: #d8e5de }
+.eventstable tr:nth-child(odd) {background: #FFF}
+
+.eventstable tr td:nth-child(6) {
+    text-align: center;
+    background: #9dbfaf;
+}
+.eventstable tr td:nth-child(2) {
+    text-align: left;
+    padding-left: 20px;
+}
+.eventstable tr td:nth-child(5) {
+    text-align: left;
+    padding-left: 20px;
+}
+
+
+.eventstable th {
+    background-color: #418367;
+    color: white;
+    font: 15px 'Arial';
+    line-height: 20px;
+}
+
+.playerdetails {
+    width: 100%;
+    font: 15px 'Arial Narrow';
+    border-collapse:collapse;
+    text-align: left;
+    vertical-align: top;
+}
+.playerdetails td {
+    vertical-align: top;
+    text-wrap: none;
+    white-space: nowrap;
+}
+.steps {
+    font: bold 16px 'Helvetica Neue Light','Courier New','Arial Narrow';
+    color: #418367;
+    text-align: left;
+    width: 50%;
+    margin-top: 15px;
+    text-wrap: none;
+    white-space: nowrap;
+}
+
+.pricetotals {
+    width: 100%;
+    border: 1px #418367 solid;
+    text-align: left;
+    border-collapse:collapse;
+    font: 16px 'Arial Narrow';
+    /*padding: 12px;*/
+}
+.grandtotal {
+    border-top: 2px #418367 dashed;
+    background-color: #d8e5de;
+}
+#agree {
+    font: 14px 'Aria', 'Times','Arial Narrow';
+}
+
+.smallprint {
+    font: 12px 'Aria', 'Times','Arial Narrow';
+    text-align: justify;
+;
+
+}
+
+.smallprinttable {
+    width: 100%;
+}
+.smallprinttable tr td {
+    vertical-align: top;
+    padding: 10px;
+}

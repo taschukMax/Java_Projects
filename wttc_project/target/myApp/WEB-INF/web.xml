@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+
+
+    <display-name>Archetype Created Web Application</display-name>
+    <servlet>
+        <servlet-name>ServletGetAllTournaments</servlet-name>
+        <servlet-class>com.westchestertabletennis.paymentgenerator.controller.ServletGetAllTournaments</servlet-class>
+    </servlet>
+    <servlet>
+        <display-name>GetAllEvents</display-name>
+        <servlet-name>ServletGetAllEvents</servlet-name>
+        <servlet-class>com.westchestertabletennis.paymentgenerator.controller.ServletGetAllEvents</servlet-class>
+    </servlet>
+    <servlet>
+        <display-name>SaveTournament</display-name>
+        <servlet-name>ServletSaveTournament</servlet-name>
+        <servlet-class>com.westchestertabletennis.paymentgenerator.controller.ServletSaveTournament</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletSaveTournament</servlet-name>
+        <url-pattern>/SaveTournament</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletGetAllEvents</servlet-name>
+        <url-pattern>/allEvents</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletGetAllTournaments</servlet-name>
+        <url-pattern>/allTournaments</url-pattern>
+    </servlet-mapping>
+
+</web-app>

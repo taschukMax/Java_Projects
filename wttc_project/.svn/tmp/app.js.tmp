@@ -1,0 +1,18 @@
+<<<<<<< .mine
+/**
+ * Created with IntelliJ IDEA.
+ * User: Maksym
+ * Date: 8/6/13
+ * Time: 12:39 AM
+ * To change this template use File | Settings | File Templates.
+ */
+$(document).ready(function () {
+    //$("#details").hide();
+    if ($("#adddetails").prop('checked')) {
+        $("#details").show();
+    } else {
+        $("#details").hide();
+    }
+});
+=======
+>>>>>>> .r296

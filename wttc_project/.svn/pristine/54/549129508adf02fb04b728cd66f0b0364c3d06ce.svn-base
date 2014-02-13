@@ -1,0 +1,14 @@
+package com.westchestertabletennis.paymentgenerator.dto;
+
+import java.sql.ResultSet;
+
+/**
+ * Created with IntelliJ IDEA.
+ * User: Maksym
+ * Date: 7/15/13
+ * Time: 7:15 PM
+ * To change this template use File | Settings | File Templates.
+ */
+public interface RowMapper {
+    public DTO createDTOFromResultSet(ResultSet result) throws Exception;
+}

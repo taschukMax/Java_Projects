@@ -1,0 +1,21 @@
+/**
+ * Created with IntelliJ IDEA.
+ * User: Maksym
+ * Date: 8/6/13
+ * Time: 12:39 AM
+ * To change this template use File | Settings | File Templates.
+ */
+$(document).ready(function () {
+    var value, value2;
+    $("#tournamentName").on('click', function () {
+        var value = this.value;
+    });
+    $("#tournamentDate").on('focus',function () {
+        value2 = $(this).val();
+        $(this).val('');
+
+    }).on('blur', function () {
+            value2 = $(this).val();
+            $(this).val(value2);
+        });
+});

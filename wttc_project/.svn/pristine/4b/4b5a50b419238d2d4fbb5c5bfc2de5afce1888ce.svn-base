@@ -1,0 +1,112 @@
+package com.westchestertabletennis.paymentgenerator.dto;
+
+import java.sql.ResultSet;
+
+public class TournamentDTO implements DTO {
+    private int id;
+    private String tName;
+    private String date;
+    private int stars;
+    private String deadline;
+    private String policy;
+    private String eligibility;
+
+    public String getDeadline() {
+        return deadline;
+    }
+
+    public void setDeadline(String deadline) {
+        this.deadline = deadline;
+    }
+
+    public String getPolicy() {
+        return policy;
+    }
+
+    public void setPolicy(String policy) {
+        this.policy = policy;
+    }
+
+    public String getEligibility() {
+        return eligibility;
+    }
+
+    public void setEligibility(String eligibility) {
+        this.eligibility = eligibility;
+    }
+
+    public TournamentDTO() {
+    }
+
+    public TournamentDTO(int id, String tName, String date, int stars) {
+        this.id = id;
+        this.tName = tName;
+        this.date = date;
+        this.stars = stars;
+    }
+
+    public TournamentDTO(int id, String tName, String date, int stars, String deadline, String policy, String eligibility) {
+        this.id = id;
+        this.tName = tName;
+        this.date = date;
+        this.stars = stars;
+        this.deadline = deadline;
+        this.policy = policy;
+        this.eligibility = eligibility;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String gettName() {
+        return tName;
+    }
+
+    public void settName(String tName) {
+        this.tName = tName;
+    }
+
+    public String getDate() {
+        return date;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
+    }
+
+    public int getStars() {
+        return stars;
+    }
+
+    public void setStars(int stars) {
+        this.stars = stars;
+    }
+
+    @Override
+    public DTO fromResultSet(ResultSet result) throws Exception {
+        int id = result.getInt(1);
+        String tName = result.getString(2);
+        String date = result.getString(3);
+        int stars = result.getInt(4);
+        String deadline = result.getString(5);
+        String policy = result.getString(6);
+        String eligibility = result.getString(7);
+        TournamentDTO tournamentDTO = new TournamentDTO(id, tName, date, stars, deadline, policy, eligibility);
+        return tournamentDTO;
+    }
+
+    @Override
+    public String toString() {
+        return "TournamentDTO{" +
+                "id=" + id +
+                ", tName='" + tName + '\'' +
+                ", date='" + date + '\'' +
+                ", stars=" + stars +
+                '}';
+    }
+}

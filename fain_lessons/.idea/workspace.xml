@@ -65,21 +65,28 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="Task1.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/unit1/Task1.java">
+        <entry file="file://$PROJECT_DIR$/src/com/lections/uni1/Task1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="28" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0">
+            <state line="11" column="28" selection-start="0" selection-end="347" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HelloJava.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/unit1/HelloJava.java">
+      <file leaf-file-name="Tax.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/practical_java/lesson4/Tax.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="4" selection-start="1133" selection-end="1133" vertical-scroll-proportion="0.9244288">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="22" column="5" selection-start="629" selection-end="629" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestTax.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/practical_java/lesson4/TestTax.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="5" selection-start="740" selection-end="740" vertical-scroll-proportion="0.80667835">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -96,6 +103,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/unit1/Task1.java" />
         <option value="$PROJECT_DIR$/src/unit1/HelloJava.java" />
+        <option value="$PROJECT_DIR$/src/com/lections/uni1/Task1.java" />
+        <option value="$PROJECT_DIR$/src/com/practical_java/lesson4/Tax.java" />
+        <option value="$PROJECT_DIR$/src/com/practical_java/lesson4/TestTax.java" />
       </list>
     </option>
   </component>
@@ -165,6 +175,62 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="practical_java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fain_lessons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fain_lessons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="practical_java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lesson4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fain_lessons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fain_lessons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lections" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -208,7 +274,7 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="unit1.Task1" />
+      <option name="MAIN_CLASS_NAME" value="com.lections.uni1.Task1" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -316,7 +382,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="ASM" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -396,90 +462,73 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/unit1/Task1.java">
+    <entry file="file://$PROJECT_DIR$/src/com/lections/uni1/Task1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="28" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/unit1/Task1.java">
+    <entry file="file://$PROJECT_DIR$/src/com/lections/uni1/Task1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="28" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/unit1/HelloJava.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="38" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/unit1/Task1.java">
+    <entry file="file://$PROJECT_DIR$/src/com/lections/uni1/Task1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="28" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/unit1/HelloJava.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="38" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/unit1/Task1.java">
+    <entry file="file://$PROJECT_DIR$/src/com/lections/uni1/Task1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="28" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/unit1/HelloJava.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="38" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/unit1/Task1.java">
+    <entry file="file://$PROJECT_DIR$/src/com/lections/uni1/Task1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="28" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/unit1/HelloJava.java">
+    <entry file="file://$PROJECT_DIR$/src/com/lections/uni1/Task1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="38" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/unit1/Task1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="28" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0">
+        <state line="11" column="28" selection-start="0" selection-end="347" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/unit1/HelloJava.java">
+    <entry file="file://$USER_HOME$/Desktop/Lesson4Solution/Lesson4/src/com/practicaljava/lesson4/tryit/Tax.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="4" selection-start="1133" selection-end="1133" vertical-scroll-proportion="0.9244288">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="23" column="23" selection-start="63" selection-end="573" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/practical_java/lesson4/Tax.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="5" selection-start="629" selection-end="629" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Lesson4Solution/Lesson4/src/com/practicaljava/lesson4/tryit/TestTax.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="26" selection-start="67" selection-end="522" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/practical_java/lesson4/TestTax.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="5" selection-start="740" selection-end="740" vertical-scroll-proportion="0.80667835">
+          <folding />
         </state>
       </provider>
     </entry>

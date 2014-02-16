@@ -1,4 +1,4 @@
-package unit1;
+package com.lections.uni1;
 
 /**
  * Created with IntelliJ IDEA.

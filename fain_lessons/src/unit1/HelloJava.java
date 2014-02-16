@@ -41,3 +41,7 @@ class a implements Runnable{
         //To change body of implemented methods use File | Settings | File Templates.
     }
 }
+
+class B {
+
+}

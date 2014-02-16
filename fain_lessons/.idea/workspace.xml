@@ -6,6 +6,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/Task1.java" changelist="e6073a51-bf5f-4cfe-b146-19bc52fca0e9" time="1391554896118" ignored="false" />
     <file path="/HelloJava.java" changelist="e6073a51-bf5f-4cfe-b146-19bc52fca0e9" time="1392552029931" ignored="false" />
+    <file path="/NJTax.java" changelist="e6073a51-bf5f-4cfe-b146-19bc52fca0e9" time="1392563478191" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,28 +65,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Task1.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/lections/uni1/Task1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="28" selection-start="0" selection-end="347" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Tax.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/practical_java/lesson4/Tax.java">
+        <entry file="file://$PROJECT_DIR$/src/com/practical_java/lesson3/tryit/Tax.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="5" selection-start="629" selection-end="629" vertical-scroll-proportion="0.0">
+            <state line="15" column="16" selection-start="325" selection-end="325" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="TestTax.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/practical_java/lesson4/TestTax.java">
+        <entry file="file://$PROJECT_DIR$/src/com/practical_java/lesson3/tryit/TestTax.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="5" selection-start="740" selection-end="740" vertical-scroll-proportion="0.80667835">
+            <state line="25" column="5" selection-start="722" selection-end="722" vertical-scroll-proportion="0.7469244">
               <folding />
             </state>
           </provider>
@@ -106,6 +98,12 @@
         <option value="$PROJECT_DIR$/src/com/lections/uni1/Task1.java" />
         <option value="$PROJECT_DIR$/src/com/practical_java/lesson4/Tax.java" />
         <option value="$PROJECT_DIR$/src/com/practical_java/lesson4/TestTax.java" />
+        <option value="$PROJECT_DIR$/src/com/practical_java/lesson3/sample/Tax.java" />
+        <option value="$PROJECT_DIR$/src/com/practical_java/lesson3/sample/NJTax.java" />
+        <option value="$PROJECT_DIR$/src/com/practical_java/lesson3/sample/TestTax.java" />
+        <option value="$PROJECT_DIR$/src/com/practical_java/lesson3/tryit/NJTax.java" />
+        <option value="$PROJECT_DIR$/src/com/practical_java/lesson3/tryit/Tax.java" />
+        <option value="$PROJECT_DIR$/src/com/practical_java/lesson3/tryit/TestTax.java" />
       </list>
     </option>
   </component>
@@ -206,7 +204,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lesson4" />
+              <option name="myItemId" value="lesson3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tryit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fain_lessons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fain_lessons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="practical_java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lesson3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -248,6 +280,11 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="dynamic.classpath" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java_training\fain_lessons\src\com\practical_java\lesson3\tryit" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.HelloJava">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
@@ -462,58 +499,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/lections/uni1/Task1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="28" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lections/uni1/Task1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="28" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lections/uni1/Task1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="28" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lections/uni1/Task1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="28" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lections/uni1/Task1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="28" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lections/uni1/Task1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="28" selection-start="0" selection-end="347" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/Lesson4Solution/Lesson4/src/com/practicaljava/lesson4/tryit/Tax.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="23" selection-start="63" selection-end="573" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/practical_java/lesson4/Tax.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="5" selection-start="629" selection-end="629" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -527,7 +515,98 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/practical_java/lesson4/TestTax.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="5" selection-start="740" selection-end="740" vertical-scroll-proportion="0.80667835">
+        <state line="6" column="8" selection-start="113" selection-end="113" vertical-scroll-proportion="0.17926186">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/practical_java/lesson4/Tax.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="5" selection-start="629" selection-end="629" vertical-scroll-proportion="0.6572935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Lesson3Solution/Lesson3/src/Tax.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="19" selection-end="148" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/practical_java/lesson3/sample/Tax.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Lesson3Solution/Lesson3/src/NJTax.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/practical_java/lesson3/sample/NJTax.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="30" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Lesson3Solution/Lesson3/src/TestTax.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="15" selection-end="477" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Lesson3Solution/Lesson3/src/tryit/NJTax.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="50" selection-end="292" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/practical_java/lesson3/sample/TestTax.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="5" selection-start="577" selection-end="577" vertical-scroll-proportion="0.6572935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/practical_java/lesson3/tryit/NJTax.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="5" selection-start="473" selection-end="473" vertical-scroll-proportion="0.59753954">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Lesson3Solution/Lesson3/src/tryit/Tax.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="30" selection-end="335" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/practical_java/lesson3/tryit/Tax.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="16" selection-start="325" selection-end="325" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Lesson3Solution/Lesson3/src/tryit/TestTax.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="31" selection-end="643" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/practical_java/lesson3/tryit/TestTax.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="5" selection-start="722" selection-end="722" vertical-scroll-proportion="0.7469244">
           <folding />
         </state>
       </provider>

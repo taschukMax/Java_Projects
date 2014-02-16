@@ -1,12 +1,10 @@
 package com.practical_java.lesson5;
 
-import com.practical_java.lesson5.Tax;
-
 /**
  * Created with IntelliJ IDEA.
  * User: Maksym
  * Date: 2/16/14
- * Time: 5:11 PM
+ * Time: 5:28 PM
  * To change this template use File | Settings | File Templates.
  */
 public class TestTax {
@@ -17,7 +15,7 @@ public class TestTax {
             System.exit(0);
         }
 
-        Tax t = new Tax();    // Creating an instance of Tax. The first part of the assignment
+        com.practical_java.lesson5.Tax t = new com.practical_java.lesson5.Tax();    // Creating an instance of Tax. The first part of the assignment
         t.grossIncome = Double.parseDouble(args[0]);
         t.state = args[1];
         t.dependents = Integer.parseInt(args[2]);

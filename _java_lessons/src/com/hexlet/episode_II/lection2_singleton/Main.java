@@ -16,44 +16,7 @@ public class Main {
 
     private static void testSingleton() {
         System.out.println(Settings.getGameName());
-        Thread thread1 = new Thread(new Runnable() {
-            @Override
-            public void run() {
-                Settings.getInstance();
-            }
-        });
-        Thread thread2 = new Thread(new Runnable() {
-            @Override
-            public void run() {
-                Settings.getInstance();
-            }
-        });
-        Thread thread3 = new Thread(new Runnable() {
-            @Override
-            public void run() {
-                Settings.getInstance();
-            }
-        });
-        Thread thread4 = new Thread(new Runnable() {
-            @Override
-            public void run() {
-                Settings.getInstance();
-            }
-        });
-        Thread thread5 = new Thread(new Runnable() {
-            @Override
-            public void run() {
-                Settings.getInstance();
-            }
-        });
-        Thread thread6 = new Thread(new Runnable() {
-            @Override
-            public void run() {
-                Settings.getInstance();
-            }
-        });
-        thread1.start();
-        thread2.start();
-
+        System.out.println(Settings.getInstance());
     }
+
 }

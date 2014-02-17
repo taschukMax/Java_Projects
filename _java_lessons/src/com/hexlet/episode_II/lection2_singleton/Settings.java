@@ -9,14 +9,11 @@ package com.hexlet.episode_II.lection2_singleton;
  */
 public class Settings {
     private static final String GAME_NAME = "NFS Most Wanted";
-    private static Settings INSTANCE = null;
+
     private int playersCount;
 
     public synchronized static Settings getInstance() {
-        if (INSTANCE == null) {
-            INSTANCE = new Settings();
-        }
-        return Settings.INSTANCE;
+        return Settings.SettingInstanceHolder.INSTANCE;
     }
 
     public static String getGameName() {
@@ -25,5 +22,12 @@ public class Settings {
 
     private Settings() {
         System.out.println("Default constructor in Settings()");
+    }
+
+    public static class SettingInstanceHolder {
+        private static Settings INSTANCE = new Settings();
+
+        private SettingInstanceHolder() {
+        }
     }
 }

@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6073a51-bf5f-4cfe-b146-19bc52fca0e9" name="Default" comment="[Lesson6: try_it section]: Created functionality to calculate pay rate for employee and contractor;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/practical_java/lesson6/Contractor.java" afterPath="$PROJECT_DIR$/src/com/practical_java/lesson6/Contractor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/practical_java/lesson6/Employee.java" afterPath="$PROJECT_DIR$/src/com/practical_java/lesson6/Employee.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/practical_java/lesson6/Payable.java" afterPath="$PROJECT_DIR$/src/com/practical_java/lesson6/Payable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/practical_java/lesson6/Person.java" afterPath="$PROJECT_DIR$/src/com/practical_java/lesson6/Person.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TestPayIncrease.java" afterPath="$PROJECT_DIR$/src/TestPayIncrease.java" />
+    <list default="true" id="e6073a51-bf5f-4cfe-b146-19bc52fca0e9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="fain_lessons.iws" />
@@ -18,7 +13,7 @@
     <file path="/TestTax.java" changelist="e6073a51-bf5f-4cfe-b146-19bc52fca0e9" time="1392564245181" ignored="false" />
     <file path="/Task2.java" changelist="e6073a51-bf5f-4cfe-b146-19bc52fca0e9" time="1392564855768" ignored="false" />
     <file path="/Task3.java" changelist="e6073a51-bf5f-4cfe-b146-19bc52fca0e9" time="1392565011301" ignored="false" />
-    <file path="/Dummy.txt" changelist="e6073a51-bf5f-4cfe-b146-19bc52fca0e9" time="1392625302136" ignored="false" />
+    <file path="/Dummy.txt" changelist="e6073a51-bf5f-4cfe-b146-19bc52fca0e9" time="1392625499329" ignored="false" />
     <file path="/Payable.java" changelist="e6073a51-bf5f-4cfe-b146-19bc52fca0e9" time="1392624367851" ignored="false" />
     <file path="/Person.java" changelist="e6073a51-bf5f-4cfe-b146-19bc52fca0e9" time="1392624394488" ignored="false" />
     <file path="/Employee.java" changelist="e6073a51-bf5f-4cfe-b146-19bc52fca0e9" time="1392625016927" ignored="false" />
@@ -82,10 +77,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Payable.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Payable.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/practical_java/lesson6/Payable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0327553">
+            <state line="1" column="0" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Task3.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/lections/unit3/Task3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="0" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Task2.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/lections/unit3/Task2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="26" selection-start="574" selection-end="574" vertical-scroll-proportion="0.65510595">
               <folding />
             </state>
           </provider>
@@ -532,7 +545,11 @@
       <created>1392625296634</created>
       <updated>1392625296634</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="[Lesson6: try_it section]: Created functionality to calculate pay rate for employee and contractor;">
+      <created>1392625501661</created>
+      <updated>1392625501661</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -678,20 +695,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lections/unit3/Task2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="26" selection-start="574" selection-end="574" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lections/unit3/Task3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/practical_java/lesson6/Contractor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
@@ -724,7 +727,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/practical_java/lesson6/Payable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0327553">
+        <state line="1" column="0" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lections/unit3/Task3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lections/unit3/Task2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="26" selection-start="574" selection-end="574" vertical-scroll-proportion="0.65510595">
           <folding />
         </state>
       </provider>

@@ -1,3 +1,5 @@
+package com.main_classes;
+
 import com.practical_java.lesson6.Contractor;
 import com.practical_java.lesson6.Employee;
 import com.practical_java.lesson6.Person;

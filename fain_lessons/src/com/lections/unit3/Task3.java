@@ -1,12 +1,5 @@
 package com.lections.unit3;
 
-/**
- * Created with IntelliJ IDEA.
- * User: Maksym
- * Date: 2/16/14
- * Time: 5:34 PM
- * To change this template use File | Settings | File Templates.
- */
 public class Task3 {
     public static void main(String[] args) {
         String gfriend = "Nadya";

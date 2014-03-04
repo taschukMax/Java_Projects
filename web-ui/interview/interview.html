@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <style type="text/css">
+        /*question 1*/
+        .outer-div {
+            border: dashed;
+            min-height: 200px;
+        }
+
+        .inner-div {
+            border: dotted;
+        }
+
+        /*question 2*/
+        #left {
+            border: 2px solid #CCCCCC;
+        }
+
+        #right {
+            border: 2px solid #CCCCCC;
+        }
+
+        #container {
+        }
+    </style>
+
+    <h2>Question 1</h2>
+    <p>Center the inner div inside the outer div horizontally and vertically</p>
+    <div class="outer-div">
+        outer div
+        <div class="inner-div">Inner Div</div>
+    </div>
+    <h2>Question 2</h2>
+    <p>Update the CSS such that the left div is on the left, the right div is on the right and there is a red border around the #container div</p>
+    <div id="container">
+        <div id="left">left</div>
+        <div id="right">right</div>
+    </div>
+    <h2>Question 3a</h2>
+    <p>Write a javascript function such that you could run this from say, the browser console: </p>
+    <code>var stoplight=new Stoplight(['red','yellow','green']);<br />
+
+        stoplight.next(); //prints red to the console<br />
+        stoplight.next(); //prints yellow to the console
+        <br />
+        stoplight.next(); //prints green to the console
+        <br />
+        stoplight.next(); //prints red to the console and so on.<br />
+    </code>
+    <h2>Question 3b</h2>
+    <p>Write a javascript function such that you could run this from the browser console:</p>
+    <code>
+        var elevator= new Elevator(3);<br />
+        elevator.down(); // prints floor 1, can't go down<br />
+        elevator.up(); //prints floor 2<br />
+        elevator.up(); //prints floor 3<br />
+        elevator.up(); //prints floor 3, can't go up<br />
+    </code>
+</body>
+</html>

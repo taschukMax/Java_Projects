@@ -1,3 +1,5 @@
+package com.yakov_fain.lections.unit5;
+
 import javax.swing.*;
 import java.awt.GridLayout;
 import java.awt.BorderLayout;
@@ -56,7 +58,7 @@ public class Calculator {
 	  buttonPoint = new JButton(".");
 	  buttonEqual=new JButton("=");
 
-	 // Create the panel with the GridLayout with 12 buttons – 
+	 // Create the panel with the GridLayout with 12 buttons ï¿½ 
         //10 numeric ones, period, and the equal sign   
 
 		  p1 = new JPanel();

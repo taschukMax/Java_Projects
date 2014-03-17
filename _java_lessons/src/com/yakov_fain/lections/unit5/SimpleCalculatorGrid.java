@@ -1,3 +1,5 @@
+package com.yakov_fain.lections.unit5;
+
 import javax.swing.*;
 import java.awt.GridLayout;
 

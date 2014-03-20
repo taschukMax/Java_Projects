@@ -25,6 +25,7 @@ public class ServletRetailStore extends HttpServlet {
         allBikes.add(bike2);
         allBikes.add(bike3);
         request.setAttribute("allBikes", allBikes);
+        request.setAttribute("bikesQuantity", allBikes.size());
         request.getRequestDispatcher("/index.jsp").forward(request, response);
     }
 

@@ -8,8 +8,12 @@ package retail_store;
  * To change this template use File | Settings | File Templates.
  */
 public class Basket {
-    private static final int BASKET_SIZE = 12;
+    private static final int BASKET_SIZE = 2;
     private Bike bikes;
+
+    public static int getBasketSize() {
+        return BASKET_SIZE;
+    }
 
     public Basket(Bike bikes) {
         this.bikes = bikes;

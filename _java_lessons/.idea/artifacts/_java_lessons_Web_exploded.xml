@@ -2,12 +2,15 @@
   <artifact type="exploded-war" name="_java_lessons:Web exploded">
     <output-path>$PROJECT_DIR$/out/artifacts/_java_lessons_Web_exploded</output-path>
     <root id="root">
-      <element id="javaee-facet-resources" facet="_java_lessons/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="_java_lessons" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="javax.servlet:servlet-api:2.5" />
+        </element>
       </element>
+      <element id="javaee-facet-resources" facet="_java_lessons/web/Web" />
     </root>
   </artifact>
 </component>

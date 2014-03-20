@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         version="2.5">
+    <servlet>
+        <servlet-name>ServletRetailStore</servlet-name>
+        <servlet-class>retail_store.ServletRetailStore</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletRetailStore</servlet-name>
+        <url-pattern>/RetailStore</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ServletPlaceOrder</servlet-name>
+        <servlet-class>retail_store.ServletPlaceOrder</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletPlaceOrder</servlet-name>
+        <url-pattern>/PlaceOrder</url-pattern>
+    </servlet-mapping>
+</web-app>

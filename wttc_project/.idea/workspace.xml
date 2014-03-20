@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="9e9740d4-4280-4b0a-85ae-87ae464df113" name="Default" comment="">
-      <change type="MOVED" beforePath="C:\Users\Maksym\IdeaProjects\wttc_project\src\main\webapp\wttc\jquery.poshytip.js" afterPath="$PROJECT_DIR$/src/main/webapp/wttc_project_ui/js/jquery.poshytip.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/wttc_project_ui/js/app.js" afterPath="$PROJECT_DIR$/src/main/webapp/wttc_project_ui/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/events.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/events.jsp" />
+      <change type="MOVED" beforePath="F:\maksym.tashchuk\_work\_JavaEE\wttc_project\src\main\webapp\wttc\jquery.poshytip.js" afterPath="$PROJECT_DIR$/src/main/webapp/wttc_project_ui/js/jquery.poshytip.js" />
     </list>
     <list id="b32232e3-6a73-48e5-99b8-89328df438c0" name="New changelist" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/wttc_project_ui/css/bootstrap-responsive.css" afterPath="" />
@@ -17,7 +17,7 @@
     <file path="/details.jsp" changelist="9e9740d4-4280-4b0a-85ae-87ae464df113" time="1376345014221" ignored="false" />
     <file path="/events.jsp" changelist="9e9740d4-4280-4b0a-85ae-87ae464df113" time="1384461824359" ignored="false" />
     <file path="/app.js" changelist="9e9740d4-4280-4b0a-85ae-87ae464df113" time="1384461534779" ignored="false" />
-    <file path="/index.jsp" changelist="9e9740d4-4280-4b0a-85ae-87ae464df113" time="1379849299377" ignored="false" />
+    <file path="/index.jsp" changelist="9e9740d4-4280-4b0a-85ae-87ae464df113" time="1395334672853" ignored="false" />
     <file path="/style.css" changelist="9e9740d4-4280-4b0a-85ae-87ae464df113" time="1381175522647" ignored="false" />
     <file path="$PROJECT_DIR$/../hexlet.org/src/org/hexlet/lesson3/humans/Student.java" changelist="9e9740d4-4280-4b0a-85ae-87ae464df113" time="1382510207637" ignored="false" />
     <file path="/Student.java" changelist="9e9740d4-4280-4b0a-85ae-87ae464df113" time="1382510206612" ignored="false" />
@@ -31,6 +31,13 @@
     <file path="/Generics.java" changelist="9e9740d4-4280-4b0a-85ae-87ae464df113" time="1389110074983" ignored="false" />
     <file path="$PROJECT_DIR$/../hexlet.org/src/eckel/collectionAPI/Test.java" changelist="9e9740d4-4280-4b0a-85ae-87ae464df113" time="1389110855978" ignored="false" />
     <file path="/Test.java" changelist="9e9740d4-4280-4b0a-85ae-87ae464df113" time="1389110855073" ignored="false" />
+    <file path="$PROJECT_DIR$/../JavaEE_Lesson13/web/index.jsp" changelist="9e9740d4-4280-4b0a-85ae-87ae464df113" time="1395335475071" ignored="false" />
+    <file path="$PROJECT_DIR$/../JavaEE_Lesson13/src/retail_store/ServletPlaceOrder.java" changelist="9e9740d4-4280-4b0a-85ae-87ae464df113" time="1395335677372" ignored="false" />
+    <file path="/ServletPlaceOrder.java" changelist="9e9740d4-4280-4b0a-85ae-87ae464df113" time="1395335546436" ignored="false" />
+    <file path="$PROJECT_DIR$/../JavaEE_Lesson13/web/WEB-INF/placeorder.jsp" changelist="9e9740d4-4280-4b0a-85ae-87ae464df113" time="1395334545357" ignored="false" />
+    <file path="/placeorder.jsp" changelist="9e9740d4-4280-4b0a-85ae-87ae464df113" time="1395334545357" ignored="false" />
+    <file path="$PROJECT_DIR$/../JavaEE_Lesson13/web/WEB-INF/web.xml" changelist="9e9740d4-4280-4b0a-85ae-87ae464df113" time="1395334651904" ignored="false" />
+    <file path="/web.xml" changelist="9e9740d4-4280-4b0a-85ae-87ae464df113" time="1395334651904" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,34 +100,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/wttc_project_ui/js/app.js">
+      <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="24" selection-start="867" selection-end="867" vertical-scroll-proportion="0.0">
+            <state line="25" column="53" selection-start="1005" selection-end="1014" vertical-scroll-proportion="-16.346153">
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="31" selection-start="1323" selection-end="1332" vertical-scroll-proportion="-18.36">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+            <state />
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="events.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/events.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="61" selection-start="757" selection-end="757" vertical-scroll-proportion="16.346153">
+            <state line="76" column="65" selection-start="3630" selection-end="3647" vertical-scroll-proportion="-49.692307">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding>
-                <element signature="e#2505#2833#0" expanded="false" />
-                <element signature="e#2543#2825#0" expanded="false" />
-                <element signature="e#2564#2813#0" expanded="false" />
-                <element signature="e#2733#2799#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -134,19 +145,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServletGetAllEvents.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ServletGetAllEvents.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/westchestertabletennis/paymentgenerator/controller/ServletGetAllEvents.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="17" selection-start="2620" selection-end="2620" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="final.jsp" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/final.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="436" column="35" selection-start="19362" selection-end="19362" vertical-scroll-proportion="14.261296">
+            <state line="59" column="17" selection-start="2620" selection-end="2620" vertical-scroll-proportion="0.94551647">
               <folding />
             </state>
           </provider>
@@ -156,15 +158,6 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/westchestertabletennis/paymentgenerator/controller/ServletGetAllTournaments.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="8" column="13" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServletSaveTournament.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/westchestertabletennis/paymentgenerator/controller/ServletSaveTournament.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="107" column="69" selection-start="4885" selection-end="4885" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -215,8 +208,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="754" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -246,8 +239,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -317,6 +308,14 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -412,6 +411,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -419,14 +420,14 @@
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth0" value="75" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth3" value="75" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth2" value="75" />
-    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder1" value="1" />
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder3" value="3" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder2" value="2" />
-    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth2" value="75" />
-    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder5" value="5" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder5" value="5" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth2" value="75" />
     <property name="recentsLimit" value="5" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth1" value="75" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder4" value="4" />
@@ -439,22 +440,22 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth4" value="75" />
-    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth5" value="75" />
     <property name="GoToClass.includeLibraries" value="false" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth5" value="75" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder5" value="5" />
     <property name="options.lastSelected" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder5" value="5" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder4" value="4" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder1" value="1" />
-    <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder2" value="2" />
-    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder0" value="0" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder0" value="0" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -511,6 +512,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -537,19 +551,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -593,6 +594,25 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote">
+      <option name="LOCAL" value="false" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="transportHostId" />
+        </data>
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50130" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7">
@@ -655,25 +675,6 @@
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
       </ConfigurationWrapper>
-      <method />
-    </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote">
-      <option name="LOCAL" value="false" />
-      <deployment />
-      <server-settings>
-        <data>
-          <option name="transportHostId" />
-        </data>
-      </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="50130" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="false" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
     <configuration default="false" name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0">
@@ -780,7 +781,7 @@
     <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
     <option name="FORCE_UPDATE" value="false" />
     <option name="IGNORE_EXTERNALS" value="false" />
-    <configuration useDefault="true">C:\Users\Maksym\AppData\Roaming\Subversion</configuration>
+    <configuration useDefault="true">C:\Users\maksym.tashchuk\AppData\Roaming\Subversion</configuration>
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
     <supportedVersion>125</supportedVersion>
   </component>
@@ -788,16 +789,16 @@
     <option name="myMappingRoots">
       <list>
         <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="C:\Users\Maksym\IdeaProjects\wttc_project" />
-          <option name="myCopyRoot" value="C:\Users\Maksym\IdeaProjects\wttc_project" />
+          <option name="myVcsRoot" value="F:\maksym.tashchuk\_work\_JavaEE\wttc_project" />
+          <option name="myCopyRoot" value="F:\maksym.tashchuk\_work\_JavaEE\wttc_project" />
         </SvnCopyRootSimple>
       </list>
     </option>
     <option name="myMoreRealMappingRoots">
       <list>
         <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="C:\Users\Maksym\IdeaProjects\wttc_project" />
-          <option name="myCopyRoot" value="C:\Users\Maksym\IdeaProjects\wttc_project" />
+          <option name="myVcsRoot" value="F:\maksym.tashchuk\_work\_JavaEE\wttc_project" />
+          <option name="myCopyRoot" value="F:\maksym.tashchuk\_work\_JavaEE\wttc_project" />
         </SvnCopyRootSimple>
       </list>
     </option>
@@ -833,7 +834,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -846,19 +847,19 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="ASM" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32436976" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998326" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.67058825" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.67058825" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="ASM" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33109245" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -930,11 +931,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/wttc_project_ui/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="1" selection-start="1600" selection-end="1600" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/westchestertabletennis/paymentgenerator/dto/DTO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="17" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0" />
@@ -984,13 +980,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/westchestertabletennis/paymentgenerator/controller/ServletGetAllTournaments.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/westchestertabletennis/paymentgenerator/controller/ServletSaveTournament.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="107" column="69" selection-start="4885" selection-end="4885" vertical-scroll-proportion="0.0">
@@ -998,35 +987,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/westchestertabletennis/paymentgenerator/controller/ServletGetAllEvents.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/final.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="17" selection-start="2620" selection-end="2620" vertical-scroll-proportion="0.0">
+        <state line="436" column="35" selection-start="19362" selection-end="19362" vertical-scroll-proportion="0.6864608">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/events.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="65" selection-start="3630" selection-end="3647" vertical-scroll-proportion="-49.692307">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#2505#2833#0" expanded="false" />
-            <element signature="e#2543#2825#0" expanded="false" />
-            <element signature="e#2564#2813#0" expanded="false" />
-            <element signature="e#2733#2799#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/events.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="61" selection-start="757" selection-end="757" vertical-scroll-proportion="16.346153">
+        <state line="25" column="53" selection-start="1005" selection-end="1014" vertical-scroll-proportion="-16.346153">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/final.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="436" column="35" selection-start="19362" selection-end="19362" vertical-scroll-proportion="14.261296">
+        <state line="27" column="31" selection-start="1323" selection-end="1332" vertical-scroll-proportion="-18.36">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/westchestertabletennis/paymentgenerator/controller/ServletGetAllTournaments.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="13" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/westchestertabletennis/paymentgenerator/controller/ServletGetAllEvents.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="17" selection-start="2620" selection-end="2620" vertical-scroll-proportion="0.94551647">
           <folding />
         </state>
       </provider>

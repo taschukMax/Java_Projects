@@ -12,8 +12,9 @@ public class ServletPlaceOrder extends HttpServlet {
         int basketSize = Integer.parseInt(req.getParameter("basketSize"));
         int allowedSize = Basket.getBasketSize();
         req.setAttribute("basketSize", basketSize);
-        if (allowedSize <= basketSize) {
-            String msg = "Sorry, you've ordered more than allowed, maximum size is: " + allowedSize;
+        if (allowedSize < basketSize) {
+            String msg = "Sorry, you've ordered more than allowed, maximum size is: " + allowedSize + " your quantity is: " + basketSize;
+
             req.setAttribute("allowedSize", allowedSize);
             req.setAttribute("message", msg);
         }

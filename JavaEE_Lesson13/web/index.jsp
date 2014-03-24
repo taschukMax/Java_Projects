@@ -36,9 +36,7 @@
                     <option>${count.count}</option>
                 </c:forEach>
             </select>
-            <input type="button" value="Add to Cart">
             <input class="submit" type="submit" value="Order">
-            <input type="hidden" name="basketSize" value="<%= request.getAttribute("bikesQuantity") %>">
         </form>
     </div>
 </div>

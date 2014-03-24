@@ -18,4 +18,10 @@ public class Basket {
     public Basket(Bike bikes) {
         this.bikes = bikes;
     }
+
+    public static void validateOrder(String bikeModel, int quantity) throws TooManyBikesException {
+        if (quantity > BASKET_SIZE) {
+            throw new TooManyBikesException("Can not ship " + quantity + " bikes of the model " + bikeModel);
+        }
+    }
 }

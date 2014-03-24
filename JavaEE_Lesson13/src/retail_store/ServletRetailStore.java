@@ -6,6 +6,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 /**
  * Created with IntelliJ IDEA.
@@ -18,8 +19,8 @@ public class ServletRetailStore extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         Bike bike = new Bike("BMX", 1200);
-        Bike bike2 = new Bike("BMX", 1300);
-        Bike bike3 = new Bike("BMX", 1400);
+        Bike bike2 = new Bike("Mountain Bike", 1300);
+        Bike bike3 = new Bike("Cross bike", 1400);
         ArrayList<Bike> allBikes = new ArrayList<Bike>();
         allBikes.add(bike);
         allBikes.add(bike2);

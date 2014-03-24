@@ -1,12 +1,9 @@
 package retail_store;
 
 public class TooManyBikesException extends Exception {
+
     public TooManyBikesException(String message) {
-
-    }
-
-    public TooManyBikesException(String message, Throwable cause) {
-
+        super(message);
     }
 
     @Override

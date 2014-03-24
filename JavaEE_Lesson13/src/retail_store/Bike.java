@@ -10,19 +10,10 @@ package retail_store;
 public class Bike {
     private String title;
     private int price;
-    private int quantity;
-
-    public Bike(String title, int price, int quantity) {
-        this.title = title;
-        this.price = price;
-        this.quantity = quantity;
-    }
 
     public Bike(String title, int price) {
         this.title = title;
         this.price = price;
-        this.quantity = 1;
-
     }
 
     private Bike() {
@@ -46,12 +37,7 @@ public class Bike {
         return price;
     }
 
-    public void setQuantity(int quantity) {
-        this.quantity = quantity;
-    }
-
-    public int getQuantity() {
-
-        return quantity;
+    public String toString() {
+        return this.getTitle() + ", " + this.getPrice() + "$";
     }
 }

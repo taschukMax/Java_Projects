@@ -11,22 +11,19 @@ public class ServletPlaceOrder extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String msg = "";
+        String orderedBike = req.getParameter("bikes");
+        Bike bike = new Bike(orderedBike);
+        ArrayList<Bike> allBikes = new ArrayList<Bike>();
+        allBikes.add(bike);
         int basketSize = req.getParameter("quantity") == null ? -1 : Integer.parseInt(req.getParameter("quantity"));
         int allowedSize = Basket.getBasketSize();
         req.setAttribute("basketSize", basketSize);
-        if (allowedSize >= basketSize) {
-            msg = "Thank you for your order!";
-            req.setAttribute("message", msg);
-        } else if (allowedSize < basketSize) {
-            msg = "Sorry, you've ordered more than allowed, maximum size is: " + allowedSize + ". Your quantity is: " + basketSize;
-            req.setAttribute("allowedSize", allowedSize);
-            req.setAttribute("message", msg);
-        } else if (basketSize == -1) {
-            msg = "Sorry, your basket is empty";
-            req.setAttribute("message", msg);
-        }
+
         try {
-            Basket.validateOrder("BMX", 5);
+            Basket.validateOrder(bike.getTitle(), basketSize);
+            msg = "Thank you for you order!";
+            req.setAttribute("message", msg);
+            req.setAttribute("bikes", allBikes);
         } catch (TooManyBikesException e) {
             msg = "Sorry, you've ordered more than allowed, maximum size is: " + allowedSize + ". Your quantity is: " + basketSize;
             req.setAttribute("message", msg);

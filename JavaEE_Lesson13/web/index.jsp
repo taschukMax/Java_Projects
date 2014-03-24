@@ -27,8 +27,8 @@
 
         <form name="allBikes" action="PlaceOrder" method="get">
             <select name="bikes">
-                <c:forEach var="bike" items="${allBikes}">
-                    <option>${bike.getTitle()}: ${bike.getPrice()}$</option>
+                <c:forEach var="bike" items="${allBikes}" varStatus="count">
+                    <option id="${count.count}" value="${bike.getTitle()}"> ${bike.getTitle()}</option>
                 </c:forEach>
             </select>
             <select name="quantity">

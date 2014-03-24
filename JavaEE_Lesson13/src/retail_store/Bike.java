@@ -9,11 +9,9 @@ package retail_store;
  */
 public class Bike {
     private String title;
-    private int price;
 
-    public Bike(String title, int price) {
+    public Bike(String title) {
         this.title = title;
-        this.price = price;
     }
 
     private Bike() {
@@ -24,20 +22,13 @@ public class Bike {
         this.title = title;
     }
 
-    public void setPrice(int price) {
-        this.price = price;
-    }
-
     public String getTitle() {
 
         return title;
     }
 
-    public int getPrice() {
-        return price;
-    }
 
     public String toString() {
-        return this.getTitle() + ", " + this.getPrice() + "$";
+        return this.getTitle();
     }
 }

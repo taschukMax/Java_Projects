@@ -1,5 +1,7 @@
 package retail_store;
 
+import java.util.ArrayList;
+
 /**
  * Created with IntelliJ IDEA.
  * User: maksym.tashchuk
@@ -9,15 +11,20 @@ package retail_store;
  */
 public class Basket {
     private static final int BASKET_SIZE = 2;
-    private Bike bikes;
+    private ArrayList basket;
 
     public static int getBasketSize() {
         return BASKET_SIZE;
     }
 
-    public Basket(Bike bikes) {
-        this.bikes = bikes;
+    public Basket(ArrayList<Bike> bikes) {
+        this.basket = bikes;
     }
+
+    public int getCurrentBasketSize() {
+        return basket.size();
+    }
+
 
     public static void validateOrder(String bikeModel, int quantity) throws TooManyBikesException {
         if (quantity > BASKET_SIZE) {

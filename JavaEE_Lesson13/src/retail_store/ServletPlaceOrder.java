@@ -15,6 +15,8 @@ public class ServletPlaceOrder extends HttpServlet {
         Bike bike = new Bike(orderedBike);
         ArrayList<Bike> allBikes = new ArrayList<Bike>();
         allBikes.add(bike);
+        Basket basket = new Basket(allBikes);
+        System.out.println(basket);
         int basketSize = req.getParameter("quantity") == null ? -1 : Integer.parseInt(req.getParameter("quantity"));
         int allowedSize = Basket.getBasketSize();
         req.setAttribute("basketSize", basketSize);
@@ -26,7 +28,7 @@ public class ServletPlaceOrder extends HttpServlet {
             req.setAttribute("bikes", allBikes);
         } catch (TooManyBikesException e) {
             msg = "Sorry, you've ordered more than allowed, maximum size is: " + allowedSize + ". Your quantity is: " + basketSize;
-            req.setAttribute("message", msg);
+            req.setAttribute("message", e.getMessage(msg));
         }
 
         req.getRequestDispatcher("/placeorder.jsp").forward(req, resp);

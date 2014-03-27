@@ -15,19 +15,23 @@
 <body>
 
 <h1>${message}</h1>
-<table border="1">
-    <tr>
-        <th>Model</th>
-        <th>Quantity</th>
-    </tr>
-    <tr>
-        <c:forEach var="bike" items="${bikes}" varStatus="count">
-            <td>${bike.getTitle()}</td>
-            <td>${basketSize}</td>
-        </c:forEach>
+<c:if test="${!empty(bikes)}">
+    <table border="1">
+        <tr>
+            <th>Model</th>
+            <th>Quantity</th>
+        </tr>
+        <tr>
 
-    </tr>
-</table>
+            <c:forEach var="bike" items="${bikes}" varStatus="count">
+                <td>${bike.getTitle()}</td>
+                <td>${basketSize}</td>
+            </c:forEach>
+
+
+        </tr>
+    </table>
+</c:if>
 
 </body>
 </html>

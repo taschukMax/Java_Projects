@@ -20,4 +20,30 @@
         <servlet-name>ServletPlaceOrder</servlet-name>
         <url-pattern>/PlaceOrder</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <display-name>PageProperties</display-name>
+        <servlet-name>PageProperties</servlet-name>
+        <servlet-class>lesson17.ServletPageProperties</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PageProperties</servlet-name>
+        <url-pattern>/Properties</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>UserPage</servlet-name>
+        <servlet-class>lesson17.ServletReadProperties</servlet-class>
+    </servlet>
+    <servlet>
+        <display-name>Home</display-name>
+        <servlet-name>ServletMain</servlet-name>
+        <servlet-class>lesson17.ServletMain</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletMain</servlet-name>
+        <url-pattern>/Home</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>UserPage</servlet-name>
+        <url-pattern>/UserPage</url-pattern>
+    </servlet-mapping>
 </web-app>

@@ -15,7 +15,7 @@ public class ServletMain extends HttpServlet {
         PageProperties pageProperties = UserSavedProperties.readProperties();
         if (pageProperties != null) {
             request.setAttribute("pageProperties", pageProperties);
-            response.sendRedirect("/user-page-lesson17.jsp");
+            response.sendRedirect("/UserPage");
         } else {
             response.sendRedirect("/lesson17.jsp");
         }

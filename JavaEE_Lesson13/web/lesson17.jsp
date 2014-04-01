@@ -18,9 +18,9 @@
         <option value="10">10</option>
         <option value="12">12</option>
         <option value="14">14</option>
-        <option value="20">14</option>
-        <option value="22">14</option>
-        <option value="36">14</option>
+        <option value="20">20</option>
+        <option value="22">22</option>
+        <option value="36">36</option>
     </select>
     <select name="font">
         <option value="Verdana">Verdana</option>

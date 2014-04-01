@@ -18,5 +18,7 @@ public class ServletPageProperties extends HttpServlet {
         String text = request.getParameter("text");
         PageProperties properties = new PageProperties(fontSize, font, fontColor, text);
         UserSavedProperties.createProperties(properties);
+        request.setAttribute("properties", properties);
+        request.getRequestDispatcher("lesson17_prop.jsp").forward(request, response);
     }
 }

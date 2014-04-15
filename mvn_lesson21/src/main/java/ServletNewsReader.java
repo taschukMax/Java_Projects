@@ -21,11 +21,8 @@ public class ServletNewsReader extends HttpServlet {
             nr.join();
             nr2.join();
         } catch (InterruptedException e) {
-            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+            e.printStackTrace();
         }
-
-        String msg = "maxim";
-        request.setAttribute("msg", msg);
-        request.getRequestDispatcher("index.jsp").forward(request, response);
+        request.getRequestDispatcher("news.jsp").forward(request, response);
     }
 }

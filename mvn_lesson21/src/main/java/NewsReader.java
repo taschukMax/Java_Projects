@@ -17,7 +17,6 @@ public class NewsReader extends Thread {
         } catch (IOException e) {
             System.out.println(e.getMessage());
         }
-        System.out.println(msg);
         return msg;
     }
 

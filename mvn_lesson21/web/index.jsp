@@ -1,13 +1,13 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-
 <html>
 
 <head>
-    <title></title>
+    <title>News Reader</title>
 </head>
 <body>
 <form action="NewsReader" method="get" name="newsReader">
-         11111
+    <h1>Read the latest news</h1>
+    <input type="submit" value="read">
 </form>
 </body>
 </html>

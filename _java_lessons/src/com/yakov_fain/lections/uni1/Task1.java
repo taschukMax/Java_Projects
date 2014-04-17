@@ -9,6 +9,6 @@ package com.yakov_fain.lections.uni1;
  */
 public class Task1 {
     public static void main(String[] args) {
-        System.out.println("Alex Johnson \n 23 Main Street \n New York, NY 10001 \n USA");
+        System.out.println("Alex Johnson \n 23 FileCopy Street \n New York, NY 10001 \n USA");
     }
 }

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         version="2.5">
+
+    <servlet>
+        <display-name>ServletStartReading</display-name>
+        <servlet-name>ServletStartReading</servlet-name>
+        <servlet-class>ServletStartReading</servlet-class>
+        <load-on-startup>0</load-on-startup>
+    </servlet>
+    <servlet>
+        <display-name>NewsReader</display-name>
+        <servlet-name>ServletNewsReader</servlet-name>
+        <servlet-class>ServletNewsReader</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletNewsReader</servlet-name>
+        <url-pattern>/NewsReader</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletStartReading</servlet-name>
+        <url-pattern>/Start</url-pattern>
+    </servlet-mapping>
+</web-app>

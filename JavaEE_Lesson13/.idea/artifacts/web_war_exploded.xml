@@ -7,7 +7,7 @@
           <element id="module-output" name="JavaEE_Lesson13" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="jstl:jstl:1.2" />
+          <element id="library" level="project" name="javax.servlet.jsp.jstl:jstl-api:1.2" />
         </element>
       </element>
       <element id="javaee-facet-resources" facet="JavaEE_Lesson13/web/Web" />
